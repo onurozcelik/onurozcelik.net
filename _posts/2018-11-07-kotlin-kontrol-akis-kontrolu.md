@@ -3,7 +3,6 @@ layout: single
 title: "Kotlin'de Kontrol Akış Kontrolü"
 date: 2018-11-07
 categories: blog eski kotlin
-comments: true
 ---
 Kotlin programlama dilinde yapısal olarak üç tane kontrol akış kontrol (geri dönüş ve sıçrama) anahtar sözcüğü bulunmaktadır. Bunlar:
 
