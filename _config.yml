@@ -10,8 +10,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Motto: To learn read. To know write. To master teach."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # "http://onurozcelik.net"
-# twitter_username: jekyllrb
-# github_username:  jekyll
 words_per_minute: 200
 
 comments:
