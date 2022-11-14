@@ -2,7 +2,8 @@
 locale: "tr-TR"
 title: "OnurOzcelik.net"
 title_separator: "-"
-subtitle: "To know read. To learn write. To master teach."
+subtitle: "I am an avid software engineer who believes in the lifelong learning process. 
+My motto is: To know read. To learn write. To master teach."
 name: "Onur Özçelik"
 email: "muhendis.onur@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -22,7 +23,7 @@ search_full_content: true
 
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dirt"
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
 
@@ -35,9 +36,9 @@ analytics:
 
 author:
   name: "Onur ÖZÇELİK"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am a **software engineer**"
-  location: "Anywhere in Kartal or Gebze"
+  avatar: "/assets/images/bio-photo.png"
+  bio: "I am a senior software engineer"
+  location: "Tübitak RUTE R3 Gebze/Kocaeli"
   email: muhendis.onur@gmail.com
   links:
     - label: "Twitter"

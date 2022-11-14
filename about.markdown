@@ -13,5 +13,6 @@ permalink: /about/
 * Tübitak BİLGEM BTE'de çalışmaya devam ediyor
 * TCDD için UDSP, RAYTES, YERLİSİNYAL09, YERLİSİNYAL03, YERLİSİNYAL44, YERLİSİNYAL06, YERLİSİNYAL09 projelerinde çalıştı/çalışmaya devam ediyor
 * 2019 yılı Tübitak BİLGEM BTE'de başuzman araştırmacı ünvanına geçme
+* 2021 yılı Tübitak RUTE'de işe başlama
 * Evli ve 1 erkek çocuk babası
-* Her Türk gencinin kendi ve ülkesinin istikbali için bilgi üretmesi gerektiğine inanıyor
+* Her Türk gencinin kendi ve ülkesinin istikbali için üretmesi gerektiğine inanıyor
