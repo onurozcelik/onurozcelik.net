@@ -29,10 +29,10 @@ plugins:
 
 # Analytics
 analytics:
-  provider: "google-universal"
+  provider: "google"
   google:
     tracking_id: "UA-107155003-1"
-    anonymize_ip: false
+    anonymize_ip: true
 
 author:
   name: "Onur ÖZÇELİK"
