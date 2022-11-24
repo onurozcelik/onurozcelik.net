@@ -10,7 +10,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   "Onur Özçelik, Bilgisayar Yüksek Mühendisi
   Motto: To learn read. To know write. To master teach."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: # "http://onurozcelik.net"
+url:  "http://onurozcelik.net"
 words_per_minute: 200
 
 comments:
@@ -29,7 +29,7 @@ plugins:
 
 # Analytics
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
     tracking_id: "UA-107155003-1"
     anonymize_ip: true
