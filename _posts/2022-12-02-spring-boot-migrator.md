@@ -14,7 +14,7 @@ Aracı kullanabilmek için önce aracı sistemimize indirmeliyiz. Araca ait en g
 * Maven proje yönetim sistemi kullanıyor olmalı (Maalesef şu an için Gradle desteği bulunmuyor)
 * Maven dizin yapısı kullanılıyor olmalı
 * Kodlar bir Git deposu içerisinde bulunmalı
-* Maven reaktör desteği bulunmuyor (Sadece bir pom.xml bulunmalı)
+* Maven reaktör desteği bulunmuyor
 * `mvn clean package` komutlarıyla kod yakın zamanda derlenmiş ve target dizini bulunuyor olmalı
 * Sisteminizde Java 11 veya ileri bir Java sürümü yüklü olmalı
 
@@ -27,4 +27,6 @@ apply recipe2
 exit 
 ```
 Ardından aracı `java -jar spring-boot-migrator.java @recipes.txt` komutuyla terminal üzerinden çalıştırmalıyız. Yukarıdaki örnek kod bloğuna göre `<application-to-scan>` yolundaki kodlar araç tarafından incelenecek ve sırasıyla `recipe1` ve `recipe2 `adlı tarifler ile kodlar dönüştürülecektir. 
-## Conclusion / Call to action
+Her ne kadar buraya kadar yazdıklarımız umut vadedici olsa da aracı örnek bir proje için uygulama girişimim hayal kırıklığıyla sonuçlandı. EJB teknolojisi kullanarak geliştirilmiş veritabanına yazan ve okuyan basit bir projede araç uygulanacak reçeteleri başarıyla belirleyebilse bile uygulama aşamasına geldiğinde bazı hatalar ile karşılaştım ve dönüşüm başarılı olmadı. Açık kaynak bir proje olarak geliştirildiği ve topluluk desteği ile başarılı olabileceği için karşılaştığım hataları projenin sahiplerine bildireceğim. İmkan olursa projeye destek bile verebilirim.
+
+Spring Boot Migrator belki daha yolun çok başında ama kesinlikle gelecek vadediyor. Java teknolojisi ile çalışan her bir profesyonelin muhakkak bilmesi, takip etmesi ve elinden geliyorsa destek vermesi gereken bir iş. Muhakkak bir göz atmanızı öneririm. Başarısızlıkla sonuçlanan girişime ait orjinal kodlara [ejbsample](https://github.com/onurozcelik/blog-demos/tree/main/ejbsample) adresinden erişebilirsiniz.
